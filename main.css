@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+a {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+}
+/* ///////////////////////////////////////////////////////////////////////////// */
+body {
+  background-color: #219ebc;
+}
+.hero-p {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  text-align: center;
+  margin: auto;
+  box-shadow: 10px 20px #00000088;
+  width: 55%;
+  background-color: #b2dff4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+}
+.hero-body {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+}
+.mar {
+  margin: 15px 0;
+}
+h3 {
+  text-align: center;
+}
+.btn {
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+  background-color: #ffb703;
+  transition: all 0.6s;
+}
+.btn:hover {
+  background-color: #e3a200;
+}
+
+/*/////////////////////////////////// media screen/////////////////////////////// */
+@media screen and (max-width: 1500px) {
+  a {
+    font-size: 41px;
+  }
+}
+
+@media screen and (max-width: 1375px) {
+  a {
+    font-size: 39px;
+  }
+}
+@media screen and (max-width: 1320px) {
+  a {
+    font-size: 37px;
+  }
+}
+@media screen and (max-width: 1235px) {
+  a {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 1172px) {
+  a {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 1113px) {
+  a {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1056px) {
+  a {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 994px) {
+  a {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 937px) {
+  a {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 876px) {
+  a {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 771px) {
+  .hero-body {
+    font-size: 30px;
+  }
+  a {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 717px) {
+  a {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .hero {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .hero-body {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 420px) {
+  a {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 385px) {
+  a {
+    font-size: 16px;
+  }
+  .hero-body{
+ font-size: 22px;
+  }
+}
